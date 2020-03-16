@@ -1,0 +1,90 @@
+@media screen and (min-width: 768px) {
+	#hideforlargescreen {
+		display: none;
+	}
+	#showforlargescreen {
+		display: initial;
+	}
+}
+@media screen and (max-width: 768px) {
+	.logo {
+		display: none;
+	}
+	#hideforlargescreen {
+		display: initial;
+	}
+	#showforlargescreen {
+		display: none;
+	}
+
+
+}
+
+@media screen and (max-width: 576px) {
+
+}
+
+
+@font-face {
+	font-family: 'Aquarelle';
+	font-style: normal;
+	src: local('Aquarelle'), local('Aquarelle-Regular'),
+		url(fonts/aquarelle.woff) format('woff'), url(fonts/aquarelle.ttf) format('truetype');
+}
+
+body {
+	background-color: #a1d68c;
+	padding: 0 0px;
+}
+.header {background-image: url(орнамент.png);
+    /* background-size: 100%;
+    background-repeat: repeat; */
+}
+.wrapper {
+  
+		padding-bottom: 50px;
+}
+
+.header {
+   
+	background-color: rgb(162, 235, 152);
+		z-index: 1;
+}
+
+.logo {
+	height: 100px;
+	background-size: cover;
+	font-family: 'Aquarelle', Arial;
+	font-size: 70px;
+	text-align: center;
+}
+
+.logo:hover{
+	text-shadow: 0px 0px 10px #000000;
+	color: #ffe2ac;
+	letter-spacing: 10px;
+	transition: 1s ease-in-out;
+	background-color: #35aa17;
+	filter: contrast(130%);
+}
+
+.brandinmenu {
+	color: rgb(15, 88, 21);
+	font-family: 'calibri', times;
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.brandinmenu:hover {
+	color: #582500;
+	text-decoration: none;
+	transition: 150ms ease-in-out;
+	transform: scaleX(1.1);
+}
+
+.nav-link {
+	font-family: 'calibri', times;
+	font-size: 18px;
+	margin-left: 10px;
+}
